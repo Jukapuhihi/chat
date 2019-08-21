@@ -1,0 +1,21 @@
+{
+  "name": "node-multi-server-chat",
+  "version": "1.0.0",
+  "description": "A robust multi-server chat example built with Node and Socket.io",
+  "scripts": {
+    "serve-client": "node src/client/client-server.js",
+    "start-server-1": "node src/server/socket-server.js src/server/config.json server-1",
+    "start-server-2": "node src/server/socket-server.js src/server/config.json server-2",
+    "start-server-3": "node src/server/socket-server.js src/server/config.json server-3",
+    "start-server-4": "node src/server/socket-server.js src/server/config.json server-4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "repository": "https://github.com/cliffhall/node-multi-server-chat.git",
+  "devDependencies": {},
+  "author": "Cliff Hall",
+  "license": "MIT"
+}
