@@ -10,7 +10,7 @@
     "start-server-4": "node src/server/socket-server.js src/server/config.json server-4"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0"
   },
